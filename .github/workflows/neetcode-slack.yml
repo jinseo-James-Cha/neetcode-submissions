@@ -1,0 +1,96 @@
+name: Daily Commit Slack Notification
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Extract Commit Info
+        id: info
+        shell: bash
+        run: |
+          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
+          AUTHOR="${{ github.actor }}"
+          DATE=$(date +%F)
+
+          echo "message=$COMMIT_MESSAGE" >> "$GITHUB_OUTPUT"
+          echo "author=$AUTHOR" >> "$GITHUB_OUTPUT"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+
+      - name: Detect LeetHub Commit
+        id: leetcode
+        shell: bash
+        run: |
+          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
+
+          if [[ "$COMMIT_MESSAGE" =~ ^Time:.*Space:.*LeetHub$ ]]; then
+            echo "is_leetcode=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "is_leetcode=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Extract LeetCode Problem Info
+        if: steps.leetcode.outputs.is_leetcode == 'true'
+        id: problem
+        shell: bash
+        run: |
+          FILE=$(git diff --name-only HEAD~1 HEAD \
+            | grep -E '^[0-9]{4}-' \
+            | head -1)
+
+          if [ -z "$FILE" ]; then
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          DIR=$(echo "$FILE" | cut -d'/' -f1)
+
+          NUMBER=$(echo "$DIR" | cut -d'-' -f1)
+          SLUG=$(echo "$DIR" | cut -d'-' -f2-)
+
+          TITLE=$(echo "$SLUG" \
+            | sed 's/-/ /g' \
+            | sed -E 's/(^| )(.)/\1\u\2/g')
+
+          echo "found=true" >> "$GITHUB_OUTPUT"
+          echo "number=$NUMBER" >> "$GITHUB_OUTPUT"
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          echo "title=$TITLE" >> "$GITHUB_OUTPUT"
+
+      - name: Send Slack Notifications
+        if: steps.leetcode.outputs.is_leetcode == 'true' && steps.problem.outputs.found == 'true'
+        env:
+          WEBHOOK_1: ${{ secrets.SLACK_WEBHOOK_URL_D_C }}
+          # WEBHOOK_2: ${{ secrets.SLACK_WEBHOOK_URL_DUBLIN }}
+        run: |
+
+          BASE_MESSAGE="
+          ✅ ${{ steps.info.outputs.date }} Completed
+
+          👤 ${{ steps.info.outputs.author }}
+
+          📝 leetcode: https://leetcode.com/problems/${{ steps.problem.outputs.slug }}"
+
+          PAYLOAD=$(jq -n --arg text "$BASE_MESSAGE" '{text: $text}')
+
+          # for WEBHOOK in "$WEBHOOK_1" "$WEBHOOK_2"
+          for WEBHOOK in "$WEBHOOK_1"
+          do
+            curl -s \
+              -X POST \
+              -H 'Content-type: application/json' \
+              --data "$PAYLOAD" \
+              "$WEBHOOK"
+          done
+
+          echo "Slack notifications sent."
