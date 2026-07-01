@@ -36,23 +36,17 @@ jobs:
           SLUG="${{ steps.info.outputs.slug }}"
           REPO_URL="https://github.com/${{ github.repository }}/tree/main/Data%20Structures%20%26%20Algorithms"
           
-          # README에 이미 있는지 확인
+          # Check if the problem is already in the README
           if ! grep -q "$SLUG" README.md; then
-            # 마커 확인
-            if grep -q "" README.md; then
-              # 마커 아래 줄에 링크 추가
-              sed -i "//a * [$SLUG]($REPO_URL/$SLUG)" README.md
-              
-              git config --global user.name "github-actions[bot]"
-              git config --global user.email "github-actions[bot]@users.noreply.github.com"
-              git add README.md
-              git commit -m "docs: auto-add $SLUG"
-              git push
-              echo "updated=true" >> "$GITHUB_OUTPUT"
-            else
-              echo "::error::README.md에 마커가 없습니다."
-              exit 1
-            fi
+            # Append the new problem link to the very bottom of the README
+            echo "* [$SLUG]($REPO_URL/$SLUG)" >> README.md
+            
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: auto-add $SLUG"
+            git push
+            echo "updated=true" >> "$GITHUB_OUTPUT"
           else
             echo "updated=false" >> "$GITHUB_OUTPUT"
           fi
