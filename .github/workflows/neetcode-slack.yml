@@ -31,26 +31,34 @@ jobs:
           echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
 
       - name: Update README
+        id: update_readme
         run: |
           SLUG="${{ steps.info.outputs.slug }}"
           REPO_URL="https://github.com/${{ github.repository }}/tree/main/Data%20Structures%20%26%20Algorithms"
           
-          # README에 해당 링크가 없을 때만 실행
+          # README에 이미 있는지 확인
           if ! grep -q "$SLUG" README.md; then
-            sed -i "//a * [$SLUG]($REPO_URL/$SLUG)" README.md
-            
-            git config --global user.name "github-actions[bot]"
-            git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "docs: auto-add $SLUG"
-            git push
-            echo "updated=true" >> "$GITHUB_OUTPUT"
+            # 마커 확인
+            if grep -q "" README.md; then
+              # 마커 아래 줄에 링크 추가
+              sed -i "//a * [$SLUG]($REPO_URL/$SLUG)" README.md
+              
+              git config --global user.name "github-actions[bot]"
+              git config --global user.email "github-actions[bot]@users.noreply.github.com"
+              git add README.md
+              git commit -m "docs: auto-add $SLUG"
+              git push
+              echo "updated=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "::error::README.md에 마커가 없습니다."
+              exit 1
+            fi
           else
             echo "updated=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Send Slack Notification
-        if: steps.Update_README.outputs.updated == 'true'
+        if: steps.update_readme.outputs.updated == 'true'
         env:
           WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL_D_C }}
         run: |
