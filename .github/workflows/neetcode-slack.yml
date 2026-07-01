@@ -8,8 +8,13 @@ on:
 jobs:
   notify:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
       - name: Extract Info
         id: info
         shell: bash
@@ -18,20 +23,38 @@ jobs:
           AUTHOR="${{ github.actor }}"
           DATE=$(date +%F)
           
-          # 커밋 메시지에서 slug 추출 (Add: ... - submission-...)
-          # 예: "Add: is-anagram - submission-0" -> "is-anagram"
+          # 슬러그 추출
           SLUG=$(echo "$COMMIT_MESSAGE" | sed -E 's/^Add:[[:space:]](.*) - submission-[0-9]+$/\1/')
           
           echo "author=$AUTHOR" >> "$GITHUB_OUTPUT"
           echo "date=$DATE" >> "$GITHUB_OUTPUT"
           echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
 
+      - name: Update README
+        run: |
+          SLUG="${{ steps.info.outputs.slug }}"
+          REPO_URL="https://github.com/${{ github.repository }}/tree/main/Data%20Structures%20%26%20Algorithms"
+          
+          # README에 해당 링크가 없을 때만 실행
+          if ! grep -q "$SLUG" README.md; then
+            sed -i "//a * [$SLUG]($REPO_URL/$SLUG)" README.md
+            
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: auto-add $SLUG"
+            git push
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Send Slack Notification
+        if: steps.Update_README.outputs.updated == 'true'
         env:
           WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL_D_C }}
         run: |
-          BASE_MESSAGE="
-          ✅ ${{ steps.info.outputs.date }} Completed
+          BASE_MESSAGE="✅ ${{ steps.info.outputs.date }} Completed
 
           👤 ${{ steps.info.outputs.author }}
 
@@ -39,10 +62,4 @@ jobs:
 
           PAYLOAD=$(jq -n --arg text "$BASE_MESSAGE" '{text: $text}')
 
-          curl -s \
-            -X POST \
-            -H 'Content-type: application/json' \
-            --data "$PAYLOAD" \
-            "$WEBHOOK"
-
-          echo "Slack notification sent."
+          curl -s -X POST -H 'Content-type: application/json' --data "$PAYLOAD" "$WEBHOOK"
