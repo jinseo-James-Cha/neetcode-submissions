@@ -23,15 +23,21 @@ jobs:
           AUTHOR="${{ github.actor }}"
           DATE=$(date +%F)
           
-          # 슬러그 추출
-          SLUG=$(echo "$COMMIT_MESSAGE" | sed -E 's/^Add:[[:space:]](.*) - submission-[0-9]+$/\1/')
+          # Check if the commit is from NeetCode by matching the specific pattern
+          if [[ "$COMMIT_MESSAGE" =~ ^Add:[[:space:]].*-[[:space:]]submission-[0-9]+$ ]]; then
+            SLUG=$(echo "$COMMIT_MESSAGE" | sed -E 's/^Add:[[:space:]](.*) - submission-[0-9]+$/\1/')
+            echo "is_neetcode=true" >> "$GITHUB_OUTPUT"
+            echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          else
+            echo "is_neetcode=false" >> "$GITHUB_OUTPUT"
+          fi
           
           echo "author=$AUTHOR" >> "$GITHUB_OUTPUT"
           echo "date=$DATE" >> "$GITHUB_OUTPUT"
-          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
 
       - name: Update README
         id: update_readme
+        if: steps.info.outputs.is_neetcode == 'true'
         run: |
           SLUG="${{ steps.info.outputs.slug }}"
           REPO_URL="https://github.com/${{ github.repository }}/tree/main/Data%20Structures%20%26%20Algorithms"
@@ -52,7 +58,7 @@ jobs:
           fi
 
       - name: Send Slack Notification
-        if: steps.update_readme.outputs.updated == 'true'
+        if: steps.info.outputs.is_neetcode == 'true' && steps.update_readme.outputs.updated == 'true'
         env:
           WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL_D_C }}
         run: |
