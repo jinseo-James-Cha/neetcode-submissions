@@ -8,4 +8,3 @@
 * [anagram-groups](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/anagram-groups)
 * [two-integer-sum](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/two-integer-sum)
 * [string-encode-and-decode](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/string-encode-and-decode)
-* [Update README.md](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/Update README.md)
