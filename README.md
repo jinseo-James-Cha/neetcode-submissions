@@ -10,3 +10,4 @@
 * [string-encode-and-decode](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/string-encode-and-decode)
 * [products-of-array-discluding-self](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/products-of-array-discluding-self)
 * [valid-sudoku](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/valid-sudoku)
+* [longest-consecutive-sequence](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence)
