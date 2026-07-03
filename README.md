@@ -12,3 +12,4 @@
 * [valid-sudoku](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/valid-sudoku)
 * [longest-consecutive-sequence](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence)
 * [is-palindrome](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/is-palindrome)
+* [two-integer-sum-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/two-integer-sum-ii)
