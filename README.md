@@ -14,3 +14,4 @@
 * [is-palindrome](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/is-palindrome)
 * [two-integer-sum-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/two-integer-sum-ii)
 * [three-integer-sum](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/three-integer-sum)
+* [max-water-container](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/max-water-container)
