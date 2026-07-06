@@ -16,3 +16,4 @@
 * [three-integer-sum](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/three-integer-sum)
 * [max-water-container](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/max-water-container)
 * [trapping-rain-water](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/trapping-rain-water)
+* [buy-and-sell-crypto](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/buy-and-sell-crypto)
