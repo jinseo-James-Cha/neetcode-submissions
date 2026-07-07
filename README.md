@@ -19,3 +19,4 @@
 * [buy-and-sell-crypto](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/buy-and-sell-crypto)
 * [longest-substring-without-duplicates](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/longest-substring-without-duplicates)
 * [longest-repeating-substring-with-replacement](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/longest-repeating-substring-with-replacement)
+* [permutation-string](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/permutation-string)
