@@ -22,3 +22,4 @@
 * [permutation-string](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/permutation-string)
 * [minimum-window-with-characters](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/minimum-window-with-characters)
 * [sliding-window-maximum](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/sliding-window-maximum)
+* [minimum-stack](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/minimum-stack)
