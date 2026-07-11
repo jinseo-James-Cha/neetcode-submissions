@@ -25,3 +25,4 @@
 * [minimum-stack](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/minimum-stack)
 * [evaluate-reverse-polish-notation](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/evaluate-reverse-polish-notation)
 * [daily-temperatures](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/daily-temperatures)
+* [car-fleet](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/car-fleet)
