@@ -27,3 +27,4 @@
 * [daily-temperatures](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/daily-temperatures)
 * [car-fleet](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/car-fleet)
 * [largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/largest-rectangle-in-histogram)
+* [binary-search](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-search)
