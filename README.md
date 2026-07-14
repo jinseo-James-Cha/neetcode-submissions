@@ -29,3 +29,4 @@
 * [largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/largest-rectangle-in-histogram)
 * [binary-search](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-search)
 * [search-2d-matrix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/search-2d-matrix)
+* [eating-bananas](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/eating-bananas)
