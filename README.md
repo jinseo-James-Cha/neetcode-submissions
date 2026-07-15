@@ -31,3 +31,4 @@
 * [search-2d-matrix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/search-2d-matrix)
 * [eating-bananas](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/eating-bananas)
 * [find-minimum-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/find-minimum-in-rotated-sorted-array)
+* [find-target-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/find-target-in-rotated-sorted-array)
