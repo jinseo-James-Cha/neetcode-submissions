@@ -33,3 +33,4 @@
 * [find-minimum-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/find-minimum-in-rotated-sorted-array)
 * [find-target-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/find-target-in-rotated-sorted-array)
 * [time-based-key-value-store](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/time-based-key-value-store)
+* [median-of-two-sorted-arrays](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/median-of-two-sorted-arrays)
