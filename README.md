@@ -41,3 +41,4 @@
 * [remove-node-from-end-of-linked-list](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/remove-node-from-end-of-linked-list)
 * [copy-linked-list-with-random-pointer](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/copy-linked-list-with-random-pointer)
 * [add-two-numbers](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/add-two-numbers)
+* [find-duplicate-integer](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/find-duplicate-integer)
