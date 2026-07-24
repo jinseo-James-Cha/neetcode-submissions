@@ -45,3 +45,4 @@
 * [lru-cache](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/lru-cache)
 * [merge-k-sorted-linked-lists](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/merge-k-sorted-linked-lists)
 * [reverse-nodes-in-k-group](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/reverse-nodes-in-k-group)
+* [invert-a-binary-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/invert-a-binary-tree)
