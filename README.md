@@ -48,3 +48,4 @@
 * [invert-a-binary-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/invert-a-binary-tree)
 * [depth-of-binary-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/depth-of-binary-tree)
 * [binary-tree-diameter](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-tree-diameter)
+* [balanced-binary-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/balanced-binary-tree)
