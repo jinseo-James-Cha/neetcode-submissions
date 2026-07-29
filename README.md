@@ -57,3 +57,4 @@
 * [count-good-nodes-in-binary-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/count-good-nodes-in-binary-tree)
 * [valid-binary-search-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/valid-binary-search-tree)
 * [kth-smallest-integer-in-bst](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/kth-smallest-integer-in-bst)
+* [binary-tree-from-preorder-and-inorder-traversal](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-tree-from-preorder-and-inorder-traversal)
