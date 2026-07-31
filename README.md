@@ -59,3 +59,4 @@
 * [kth-smallest-integer-in-bst](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/kth-smallest-integer-in-bst)
 * [binary-tree-from-preorder-and-inorder-traversal](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-tree-from-preorder-and-inorder-traversal)
 * [binary-tree-maximum-path-sum](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-tree-maximum-path-sum)
+* [serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/serialize-and-deserialize-binary-tree)
