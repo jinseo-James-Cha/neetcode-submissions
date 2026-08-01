@@ -62,3 +62,4 @@
 * [serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/serialize-and-deserialize-binary-tree)
 * [kth-largest-integer-in-a-stream](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/kth-largest-integer-in-a-stream)
 * [last-stone-weight](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/last-stone-weight)
+* [k-closest-points-to-origin](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/k-closest-points-to-origin)
