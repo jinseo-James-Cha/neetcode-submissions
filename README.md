@@ -77,3 +77,4 @@
 * [implement-prefix-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/implement-prefix-tree)
 * [design-word-search-data-structure](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/design-word-search-data-structure)
 * [count-number-of-islands](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/count-number-of-islands)
+* [max-area-of-island](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/max-area-of-island)
