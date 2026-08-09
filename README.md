@@ -79,3 +79,4 @@
 * [count-number-of-islands](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/count-number-of-islands)
 * [max-area-of-island](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/max-area-of-island)
 * [clone-graph](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/clone-graph)
+* [islands-and-treasure](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/islands-and-treasure)
