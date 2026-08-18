@@ -96,3 +96,4 @@
 * [foreign-dictionary](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/foreign-dictionary)
 * [cheapest-flight-path](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/cheapest-flight-path)
 * [climbing-stairs](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/climbing-stairs)
+* [min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/min-cost-climbing-stairs)
