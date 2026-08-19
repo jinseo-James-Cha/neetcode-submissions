@@ -100,3 +100,4 @@
 * [house-robber](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/house-robber)
 * [house-robber-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/house-robber-ii)
 * [longest-palindromic-substring](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/longest-palindromic-substring)
+* [palindromic-substrings](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/palindromic-substrings)
