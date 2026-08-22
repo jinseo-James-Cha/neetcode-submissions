@@ -105,3 +105,4 @@
 * [coin-change](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/coin-change)
 * [maximum-product-subarray](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/maximum-product-subarray)
 * [word-break](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/word-break)
+* [longest-increasing-subsequence](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/longest-increasing-subsequence)
