@@ -112,3 +112,4 @@
 * [buy-and-sell-crypto-with-cooldown](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/buy-and-sell-crypto-with-cooldown)
 * [coin-change-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/coin-change-ii)
 * [interleaving-string](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/interleaving-string)
+* [longest-increasing-path-in-matrix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/longest-increasing-path-in-matrix)
