@@ -115,3 +115,4 @@
 * [longest-increasing-path-in-matrix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/longest-increasing-path-in-matrix)
 * [count-subsequences](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/count-subsequences)
 * [edit-distance](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/edit-distance)
+* [burst-balloons](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/burst-balloons)
