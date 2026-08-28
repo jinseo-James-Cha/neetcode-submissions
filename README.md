@@ -119,3 +119,4 @@
 * [regular-expression-matching](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/regular-expression-matching)
 * [maximum-subarray](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/maximum-subarray)
 * [jump-game](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/jump-game)
+* [jump-game-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/jump-game-ii)
