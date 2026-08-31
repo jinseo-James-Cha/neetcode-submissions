@@ -125,3 +125,4 @@
 * [merge-triplets-to-form-target](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/merge-triplets-to-form-target)
 * [partition-labels](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/partition-labels)
 * [valid-parenthesis-string](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/valid-parenthesis-string)
+* [insert-new-interval](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/insert-new-interval)
