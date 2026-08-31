@@ -124,3 +124,4 @@
 * [hand-of-straights](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/hand-of-straights)
 * [merge-triplets-to-form-target](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/merge-triplets-to-form-target)
 * [partition-labels](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/partition-labels)
+* [valid-parenthesis-string](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/valid-parenthesis-string)
