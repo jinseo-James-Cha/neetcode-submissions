@@ -129,3 +129,4 @@
 * [merge-intervals](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/merge-intervals)
 * [non-overlapping-intervals](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/non-overlapping-intervals)
 * [meeting-schedule](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/meeting-schedule)
+* [meeting-schedule-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/meeting-schedule-ii)
