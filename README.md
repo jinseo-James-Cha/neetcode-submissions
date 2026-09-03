@@ -131,3 +131,4 @@
 * [meeting-schedule](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/meeting-schedule)
 * [meeting-schedule-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/meeting-schedule-ii)
 * [minimum-interval-including-query](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/minimum-interval-including-query)
+* [rotate-matrix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/rotate-matrix)
