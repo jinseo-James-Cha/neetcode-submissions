@@ -134,3 +134,4 @@
 * [rotate-matrix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/rotate-matrix)
 * [spiral-matrix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/spiral-matrix)
 * [set-zeroes-in-matrix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/set-zeroes-in-matrix)
+* [non-cyclical-number](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/non-cyclical-number)
