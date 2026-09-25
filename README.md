@@ -148,3 +148,4 @@
 * [sum-of-two-integers](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/sum-of-two-integers)
 * [reverse-integer](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/reverse-integer)
 * [transpose-matrix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/transpose-matrix)
+* [roman-to-integer](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/roman-to-integer)
