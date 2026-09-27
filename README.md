@@ -1,4 +1,6 @@
-30/06/2026 - Starting from a bottom at Neetcode.
+30/06/2026 - Starting from a bottom at Neetcode
+# Neetcode 150 - done
+# Neetcode 250 - working
 
 ### Solved Problems and Solutions
 ### KEEP GOING
