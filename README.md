@@ -154,3 +154,4 @@
 * [excel-sheet-column-title](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/excel-sheet-column-title)
 * [concatenation-of-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/concatenation-of-array)
 * [longest-common-prefix](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/longest-common-prefix)
+* [remove-element](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/remove-element)
