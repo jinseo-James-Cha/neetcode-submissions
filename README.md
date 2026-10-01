@@ -160,3 +160,4 @@
 * [design-hashmap](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/design-hashmap)
 * [sort-an-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/sort-an-array)
 * [sort-colors](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/sort-colors)
+* [range-sum-query-2d-immutable](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/range-sum-query-2d-immutable)
