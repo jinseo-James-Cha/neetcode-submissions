@@ -165,3 +165,4 @@
 * [majority-element-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/majority-element-ii)
 * [subarray-sum-equals-k](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/subarray-sum-equals-k)
 * [first-missing-positive](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/first-missing-positive)
+* [reverse-string](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/reverse-string)
