@@ -169,3 +169,4 @@
 * [valid-palindrome-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/valid-palindrome-ii)
 * [merge-strings-alternately](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/merge-strings-alternately)
 * [merge-sorted-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/merge-sorted-array)
+* [remove-duplicates-from-sorted-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/remove-duplicates-from-sorted-array)
