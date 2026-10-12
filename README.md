@@ -174,3 +174,4 @@
 * [rotate-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/rotate-array)
 * [boats-to-save-people](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/boats-to-save-people)
 * [contains-duplicate-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/contains-duplicate-ii)
+* [minimum-size-subarray-sum](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/minimum-size-subarray-sum)
