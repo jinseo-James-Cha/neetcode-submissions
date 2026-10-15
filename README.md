@@ -178,3 +178,4 @@
 * [find-k-closest-elements](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/find-k-closest-elements)
 * [baseball-game](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/baseball-game)
 * [validate-parentheses](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/validate-parentheses)
+* [implement-stack-using-queues](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/implement-stack-using-queues)
