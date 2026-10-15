@@ -177,3 +177,4 @@
 * [minimum-size-subarray-sum](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/minimum-size-subarray-sum)
 * [find-k-closest-elements](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/find-k-closest-elements)
 * [baseball-game](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/baseball-game)
+* [validate-parentheses](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/validate-parentheses)
