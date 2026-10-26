@@ -188,3 +188,4 @@
 * [capacity-to-ship-packages-within-d-days](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/capacity-to-ship-packages-within-d-days)
 * [search-in-rotated-sorted-array-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/search-in-rotated-sorted-array-ii)
 * [split-array-largest-sum](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/split-array-largest-sum)
+* [find-in-mountain-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/find-in-mountain-array)
