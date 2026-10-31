@@ -190,3 +190,4 @@
 * [split-array-largest-sum](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/split-array-largest-sum)
 * [find-in-mountain-array](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/find-in-mountain-array)
 * [reverse-linked-list-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/reverse-linked-list-ii)
+* [design-circular-queue](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/design-circular-queue)
