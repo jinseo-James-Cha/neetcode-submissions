@@ -193,3 +193,4 @@
 * [design-circular-queue](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/design-circular-queue)
 * [lfu-cache](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/lfu-cache)
 * [binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-tree-inorder-traversal)
+* [binary-tree-preorder-traversal](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-tree-preorder-traversal)
