@@ -195,3 +195,4 @@
 * [binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-tree-inorder-traversal)
 * [binary-tree-preorder-traversal](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-tree-preorder-traversal)
 * [binary-tree-postorder-traversal](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/binary-tree-postorder-traversal)
+* [insert-into-a-binary-search-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/insert-into-a-binary-search-tree)
