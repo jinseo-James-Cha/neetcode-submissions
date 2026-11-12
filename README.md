@@ -199,3 +199,4 @@
 * [delete-node-in-a-bst](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/delete-node-in-a-bst)
 * [construct-quad-tree](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/construct-quad-tree)
 * [house-robber-iii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/house-robber-iii)
+* [delete-leaves-with-a-given-value](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/delete-leaves-with-a-given-value)
