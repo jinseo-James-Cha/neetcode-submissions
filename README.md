@@ -205,3 +205,4 @@
 * [simplify-path](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/simplify-path)
 * [decode-string](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/decode-string)
 * [maximum-frequency-stack](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/maximum-frequency-stack)
+* [sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/sum-of-all-subset-xor-totals)
