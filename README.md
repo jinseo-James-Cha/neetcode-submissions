@@ -212,3 +212,4 @@
 * [combinations-of-a-phone-number](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/combinations-of-a-phone-number)
 * [matchsticks-to-square](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/matchsticks-to-square)
 * [partition-to-k-equal-sum-subsets](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/partition-to-k-equal-sum-subsets)
+* [n-queens](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/n-queens)
