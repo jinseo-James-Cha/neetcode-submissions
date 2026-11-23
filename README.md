@@ -213,3 +213,4 @@
 * [matchsticks-to-square](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/matchsticks-to-square)
 * [partition-to-k-equal-sum-subsets](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/partition-to-k-equal-sum-subsets)
 * [n-queens](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/n-queens)
+* [n-queens-ii](https://github.com/jinseo-James-Cha/neetcode-submissions/tree/main/Data%20Structures%20%26%20Algorithms/n-queens-ii)
